@@ -1,10 +1,3 @@
-/*
-
-Template 2080 Minimax
-
-http://www.tooplate.com/view/2080-minimax
-
-*/
 
 body
 	{
@@ -159,7 +152,7 @@ img:hover {
   padding-bottom: 80px;
 }
 #service h2 {
-  border-left: 2px solid #f2af00;
+  border-left: 2px solid #CC2727;
   display: inline-block;
   padding: 20px;
   color: white;
@@ -168,7 +161,7 @@ img:hover {
   color: white;
 }
 #service .fa {
-  border-top: 3px solid #f2af00;
+  border-top: 3px solid #CC2727;
   border-bottom: 3px solid #CC2727;
   border-radius: 50%;
   font-size: 32px;
@@ -186,7 +179,7 @@ img:hover {
   padding-bottom: 80px;
 }
 #about h2 {
-  border-right: 2px solid #f2af00;
+  border-right: 2px solid #CC2727;
   display: inline-block;
   padding: 10px 20px 10px 10px;
   color: white;
@@ -198,6 +191,9 @@ img:hover {
 #about img {
   border: 1px solid #666;
   padding: 10px;
+}
+#about h3 {
+  color: white;
 }
 #about h4 {
   padding-bottom: 10px;
@@ -361,7 +357,7 @@ img:hover {
   text-align: center;
 }
 #contact h2 {
-  border-right: 2px solid #f2af00;
+  border-right: 2px solid #CC2727;
   display: inline-block;
   padding: 10px 20px 10px 10px;
   margin-bottom: 60px;
@@ -454,7 +450,7 @@ footer span {
     -ms-transition: all 0.4s ease-in-out;
 }
 .social-icons li a:hover {
-  background: #f2af00;
+  background: #CC2727;
 }
 
 /* copyright section */
@@ -467,7 +463,7 @@ footer span {
 /* scrolltop section */
 .go-top 
   {
-    background-color: #f2af00;
+    background-color: #CC2727;
     font-size: 26px;
     bottom: 2em;
     right: 2em;
