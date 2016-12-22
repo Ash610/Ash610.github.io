@@ -69,7 +69,7 @@ img:hover {
   background: F40E0E;
 }
 .navbar-default .navbar-nav li a {
-    border-right: 1px #808080;
+    border-right: 1px solid black;
     color: white;
      font-weight: bold;
     padding-right: 40px;
