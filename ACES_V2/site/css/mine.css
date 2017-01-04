@@ -1,0 +1,28 @@
+/*.module {
+	background: white;
+	border: 1px solid #ccc;
+	margin: 3%;
+> h2 {
+	padding 1rem;
+	margin: 0 0 0.5rem 0;
+}
+> P {
+	padding: 0 1rem;
+}
+}
+
+.strip-2 {
+	color: black;
+	background: repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 10px,
+		#ccc 10px,
+		#ccc 20px
+),
+liner-gradient(
+	to bottom,
+	#eee
+	#999
+	)
+}*/
