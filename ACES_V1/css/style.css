@@ -166,6 +166,11 @@ img:hover {
 #service h3 {
   color: white;
 }
+#service .div h4 {
+  color: red;
+  font-size: 40px;
+
+}
 #service .fa {
   border-top: 3px solid #CC2727;
   border-bottom: 3px solid #CC2727;
@@ -509,4 +514,14 @@ footer span {
   #team h4 {
     padding-bottom: 30px;
   }
+}
+
+
+#homeS {
+  background: url('../images/baler_Compactor.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  padding-top: 220px;
+  padding-bottom: 100px;
 }
