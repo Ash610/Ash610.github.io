@@ -180,6 +180,11 @@ a{
 
 .caption {
   padding-top:25px;
+  text-align: center;
+}
+
+.caption a{
+  color: red;
 }
 
 /* about section */
