@@ -19,7 +19,7 @@ body
 }
 
 h1, p {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Kreon', serif;
   font-weight: 400;
   color: white;
 }
@@ -42,6 +42,9 @@ img {
 img:hover {
   cursor: pointer;
   opacity: 0.5;
+}
+a{
+  color: red;
 }
 
 /* navigation */
@@ -173,8 +176,10 @@ img:hover {
 }
 #service img{
   padding-top: 30px;
-  border: 1px solid red;
-  position: center;
+}
+
+.caption {
+  padding-top:25px;
 }
 
 /* about section */
