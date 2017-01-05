@@ -518,10 +518,24 @@ footer span {
 
 
 #homeS {
-  background: url('../images/baler_Compactor.jpg')no-repeat;
+  background: url('../images/bgS.jpg')no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 600px;
   padding-top: 220px;
   padding-bottom: 100px;
+}
+#homeS h3{
+  color: white;
+  font-size:50px;
+  background: black;
+}
+
+#homeS .container {
+  padding: 40px;
+}
+#homeS .row {
+  padding: 40px;
+  background: black;
+  opacity: 0.5;
 }
