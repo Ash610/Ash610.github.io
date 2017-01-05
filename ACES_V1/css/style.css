@@ -1,7 +1,7 @@
 
 body
 	{
-		background: #4d4d4d;
+		background: black;
 		font-family: 'lane_-_narrowregular', sans-serif;
     line-height: 30px;
 	}
@@ -46,7 +46,7 @@ img:hover {
 
 /* navigation */
 .navbar-default {
-    background: #a6a6a6;
+    background: black;
     border: none;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
     margin: 0 !important;
@@ -171,17 +171,10 @@ img:hover {
   font-size: 40px;
 
 }
-#service .fa {
-  border-top: 3px solid #CC2727;
-  border-bottom: 3px solid #CC2727;
-  border-radius: 50%;
-  font-size: 32px;
-  color: #dc5034;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 50px;
-  margin-bottom: 15px;
-  padding: 40px;
+#service img{
+  padding-top: 30px;
+  
+
 }
 
 /* about section */
@@ -214,156 +207,8 @@ img:hover {
   text-align: justify;
 }
 
-/* team section */
-/*#team {
-  padding-top: 60px;
-  padding-bottom: 100px;
-}
-#team h2 {
-  border-left: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 10px 10px 20px;
-}
-#team h4 {
-	padding-bottom: 40px;
-}
-#team .col-md-12 {
-  text-align: center;
-  padding-bottom: 60px;
-}
-#team img {
-  border: 1px solid #666;
-  padding: 15px;
-}
-*/
-/* portfolio section */
-/*#portfolio {
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 60px;
-  }
-#portfolio h2 {
-  border-right: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 20px 10px 10px;
-}
-/* FILTER CSS */
-/*
-.filter-wrapper {
-    width: 100%;
-    margin: 0 0 24px 0;
-    overflow: hidden;
-    text-align: center;
-}
-.filter-wrapper li {
-    display: inline-block;
-    margin: 4px;
-}
-.filter-wrapper li a {
-    color: #999999;
-    font-size: 16px;
-    font-family: 'lane_-_narrowregular', sans-serif;
-    font-weight: bold;
-    padding: 8px 17px;
-    display: block;
-    text-decoration: none;
-    transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-}
-.filter-wrapper li a.selected,
-.filter-wrapper li a:focus,
-.filter-wrapper li a:hover {
-    background: #f2af00;
-    border-color: transparent;
-    color: #ffffff;
-  }
-*/
-/* ISOTOPE BOX CSS */
-/*.iso-box-section {
-    width: 100%;
-}
-.iso-box-wrapper {
-    width: 100%;
-    padding: 0;
-    clear: both;
-    position: relative;
-}
-.iso-box {
-    position: relative;
-    min-height: 50px;
-    float: left;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-.iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.iso-box > a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.fluid-img {
-  width: 100%;
-  display: block;
-}
-*/
-/* pricing section */
-/*#pricing {
-  padding-top: 60px;
-  padding-bottom: 80px;
-  text-align: center;
-}
-#pricing h2 {
-  border-left: 2px solid #f2af00;
-  display: inline-block;
-  padding: 10px 10px 10px 20px;
-}
-#pricing .plan {
-  border: 2px solid #444;
-  padding: 20px 20px 40px 20px;
-  margin-top: 60px;
-}
-#pricing .plan .plan-title {
-  border-bottom: 2px solid #444;
-  padding: 20px 10px 20px 10px;
-  margin-bottom: 20px;
-}
-#pricing .plan small,
-#pricing .plan ul li {
-  font-family: 'Raleway', sans-serif;
-}
-#pricing .plan ul {
-  padding: 0;
-}
-#pricing .plan ul li {
-  display: block;
-  padding: 16px 0px 16px 0px;
-}
-#pricing .plan .btn {
-  background: transparent;
-  border: 2px solid #444;
-  border-radius: 0px;
-  color: #000;
-  font-weight: bold;
-  width: 140px;
-  height: 50px;
-  transition: all 0.4s ease-in-out;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-}
-#pricing .plan .btn:hover {
-  background: #f2af00;
-  border-color: transparent;
-}
-*/
+
+  
 /* contact section */
 #contact {
   padding-top: 60px;
@@ -528,7 +373,6 @@ footer span {
 #homeS h3{
   color: white;
   font-size:50px;
-  background: black;
 }
 
 #homeS .container {
@@ -537,5 +381,5 @@ footer span {
 #homeS .row {
   padding: 40px;
   background: black;
-  opacity: 0.5;
+  background-opacity: 0.5;
 }
