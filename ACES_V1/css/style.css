@@ -173,8 +173,8 @@ img:hover {
 }
 #service img{
   padding-top: 30px;
-  
-
+  border: 1px solid red;
+  position: center;
 }
 
 /* about section */
@@ -193,7 +193,7 @@ img:hover {
   padding-bottom: 60px;
 }
 #about img {
-  border: 1px solid #666;
+  border: 3px solid #666;
   padding: 10px;
 }
 #about h3 {
@@ -382,7 +382,12 @@ footer span {
   padding: 40px;
   background: black;
 }
-
+#homeS h4{
+  color: white;
+}
+#homeS li{
+  color:white;
+}
 .dropdown {
     position: relative;
     display: inline-block;
