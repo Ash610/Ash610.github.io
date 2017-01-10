@@ -605,7 +605,7 @@ and (max-width : 991px) {
 .team-details h4 {
     font-size: 25px;
     font-weight: 300;
-    color: #FF432E;
+    color: green;
     font-family: 'Oswald', sans-serif;
     text-transform: none;
     text-align: center;
@@ -630,8 +630,8 @@ and (max-width : 991px) {
 
 .team-details li a {
     padding: 5px 8px;
-    background: #FF432E;
-    color: #fff;
+    background: green;
+    color: white;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
@@ -696,6 +696,7 @@ and (max-width : 991px) {
     -moz-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px;
+    font-family: sans-serif;
 }
 
 @media only screen 
@@ -705,6 +706,7 @@ and (max-width : 991px) {
     .footer-contact-info {
 		margin-bottom: 30px;
 		margin-top: 30px;
+
 	}
     
 }
@@ -729,11 +731,13 @@ and (max-width : 991px) {
     -moz-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px;
+
 }
 
 .footer-social li {
     display: inline-block;
     padding: 0 10px;
+
 }
 
 @media only screen and (max-width : 360px) {
@@ -760,12 +764,14 @@ and (max-width : 991px) {
     font-size: 15px;
     width: 20px;
     height: 20px;
+
 }
 
 .footer-social li:hover a {
     background: #fff;
     //border: 1px solid #FF432E;
     color: #666;
+
 }
 
 
@@ -839,11 +845,13 @@ and (max-width : 991px) {
 .contact button {
     font-weight: 400;
     margin-top: 30px;
+    font-family: sans-serif;
 }
 
 .contact .btn-primary {
     padding: 20px;
     font-size: 16px;
+    font-family: sans-serif;
 }
 
 .contact .btn-primary:hover {
