@@ -458,6 +458,10 @@ footer span {
 #homeS li{
   color:white;
 }
+#homeS img {
+  border: 4px solid #666;
+
+}
 .dropdown {
     position: relative;
     display: inline-block;
