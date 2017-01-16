@@ -276,6 +276,9 @@ li.dropdown {
   padding-bottom: 60px;
   text-align: center;
 }
+#contact .container{
+  background: black;
+}
 #contact h2 {
   border-right: 2px solid #CC2727;
   display: inline-block;
@@ -330,6 +333,10 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+footer .container {
+  padding: 40px;
+  background: black;
+}
 footer h2 {
   border-bottom: 2px solid #444;
   padding-top: 20px;
@@ -378,7 +385,9 @@ footer span {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+  background: black;
 }
+  
 
 /* scrolltop section */
 .go-top 
@@ -402,7 +411,7 @@ footer span {
   }
 .go-top:hover
   {
-    background-color: #444;
+  background-color: #444;
 	color: #fff;
   }
 
