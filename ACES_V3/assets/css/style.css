@@ -42,7 +42,7 @@ h3, h4 { line-height: 20px; }
 a.big-link-1 {
 	display: inline-block;
     padding: 5px 22px;
-    background: #9d426b;
+    background: red;
     color: #fff;
     font-style: italic;
     text-decoration: none;
@@ -66,7 +66,7 @@ a.big-link-2 {
     width: 35px;
     height: 35px;
     padding-top: 6px;
-    background: #9d426b;
+    background: red;
     font-size: 20px;
     color: #fff;
     line-height: 20px;
@@ -219,7 +219,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: red; co
 	width: 60px;
 	height: 60px;
 	padding-top: 17px;
-	background: #9d426b;
+	background: black;
 	color: #fff;
 	text-shadow: none;
 }
@@ -303,7 +303,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: red; co
 	margin-top: 40px;
     padding: 15px 15px 20px 15px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid red;
 }
 
 .service:hover {
@@ -461,7 +461,7 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: red; co
 }
 
 .testimonial-list .nav-tabs li a:hover { border: 0; background: #ddd; }
-.testimonial-list .nav-tabs li.active a { background: #9d426b; }
+.testimonial-list .nav-tabs li.active a { background: red; }
 
 
 /***** Footer *****/
@@ -629,7 +629,7 @@ footer {
     margin-top: 40px;
     padding-bottom: 15px;
     background: #f8f8f8;
-    border-bottom: 2px solid #9d426b;
+    border-bottom: 2px solid red;
 }
 
 .team-box:hover img {
