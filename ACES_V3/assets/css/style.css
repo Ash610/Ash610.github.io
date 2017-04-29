@@ -10,10 +10,10 @@
 
 
 body {
-    background: #fff;
+    background: #181818;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    color: #888;
+    color: black;
     font-size: 12px;
 }
 
@@ -24,7 +24,7 @@ a {
     text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
-a:hover, a:focus { color: #888; text-decoration: none; }
+a:hover, a:focus { color: white; text-decoration: none; }
 
 strong { font-weight: bold; }
 
@@ -91,7 +91,7 @@ a.big-link-2:active {
 a.big-link-3 {
 	display: inline-block;
     padding: 5px 22px;
-    background: #9d426b;
+    background: red;
     font-size: 18px;
     color: #fff;
     font-style: italic;
@@ -117,7 +117,7 @@ a.big-link-3:active {
 
 .navbar {
 	margin-bottom: 0;
-	background: white;
+	background: #181818;
 	border: 0;
 	-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
@@ -128,10 +128,10 @@ ul.navbar-nav {
 	text-transform: uppercase;
 }
 
-ul.navbar-nav li a { padding: 23px 20px; background: #fff; border-top: 5px solid #fff; color: #5d5d5d; }
-ul.navbar-nav li.active a { background: #f8f8f8; border-color: red; color: #5d5d5d; }
+ul.navbar-nav li a { padding: 23px 20px; background: #181818; border-top: 5px solid #181818; color: #5d5d5d; }
+ul.navbar-nav li.active a { background: #181818; border-color: red; color: #5d5d5d; }
 
-ul.navbar-nav li a:hover, ul.navbar-nav li a:focus { background: red; border-color: red; color: #fff; outline: 0; }
+ul.navbar-nav li a:hover, ul.navbar-nav li a:focus { background: red; border-color: red; color: #181818; outline: 0; }
 
 .nav .open > a { background: #f8f8f8; border-color: red; color: #5d5d5d; }
 .nav .open > a:hover, .nav .open > a:focus { background: red; border-color: red; color: #fff; }
