@@ -1,0 +1,54 @@
+
+footer.page-footer {
+    background-color: /*#505168;*/#27233A;
+}
+nav .nav-wrapper{
+	background-color: /*#B3C0A4;*/ #DCC48E;
+}
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+/* Main COntent */
+.container{
+	padding-top: 10px;
+}
+.user {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: center;
+  
+}
+.three {
+  background-image: url('http://placehold.it/350x750');
+}
+p{
+	text-align: justify;
+}
+h3{
+	text-align: center;
+
+}

@@ -160,13 +160,11 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: red; co
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 .navbar-brand {
-	width: 167px;
-	height: 106px;
-	background: url(../img/ACESlogo.jpg) left center no-repeat;
-     background-size: 80px 60px;
-	text-indent: -99999px;
+	width: 200px;
+	height: 140px;
+   background-size: 180px 160px
+   	text-indent: -99999px;
 }
-
 /***** Slider *****/
 
 .slider-container {
@@ -230,7 +228,10 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: red; co
 
 
 /***** Slider 2 *****/
-
+slider-container{
+    width: 590px;
+    height: 316px;
+}
 .slider-2-container {
 	padding: 180px 0;
 }
@@ -258,7 +259,9 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: red; co
     font-style: italic;
 }
 
+#sidemenu{
 
+}
 /***** Presentation *****/
 
 .presentation-container {
