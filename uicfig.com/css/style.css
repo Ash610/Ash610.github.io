@@ -3,11 +3,12 @@
 
 
 body {
-    background: url(../images/background.jpg) no-repeat;
+   
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
     font-family: 'Russo One', sans-serif;
+    background-color: white;
 }
 
 a,
@@ -129,7 +130,7 @@ fieldset[disabled] .btn-primary.active {
 /**** Start Background Color ****/
 
 .blue {
-    background: #28ABE3;
+    background: black;
 }
 
 .green {
@@ -141,15 +142,15 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .light-red {
-    background: #FB6648;
+    background: #72bf48;
 }
 
 .light-orange {
-    background: #FA6900;
+    background: #72bf48;
 }
 
 .color {
-    background: #0ECEAB;
+    background: black;
 }
 
 
