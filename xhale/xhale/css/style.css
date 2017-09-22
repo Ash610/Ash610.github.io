@@ -32,23 +32,23 @@ table {
 	border-spacing: 0;
 }
 #banner{
-    background: url(../img/banner-bg.jpg) no-repeat center top;
+    background: url(../img/xhneon.jpg) no-repeat center top;
     background-size: cover;
     min-height: 630px;
 }
 .bg-color{
-    background-color: RGBA(0, 0, 0, 0.61);
+   /* background-color: RGBA(0, 0, 0, 0.30);*/
     min-height: 630px;
 }
 #banner h2{
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     
     font-size: 45px;
-    color: #FFB03B;
+    color: blue;
 }
 #banner p{
     /*font-family: 'PT Sans', sans-serif; */
-    font-family: 'Baloo Tammudu', cursive;
+    font-family: 'Abril Fatface', cursive;
     color: #fcfcfc;
     font-size: 34px;
 }
@@ -57,10 +57,10 @@ table {
 }
 .logo-name{
     /*font-family: 'Satisfy', sans-serif; */
-    font-family: 'Baloo Tammudu', cursive;
+    font-family: 'Abril Fatface', cursive;
     font-size: 65px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: red;
 }
 .sidenav {
     height: 100%;
@@ -105,9 +105,9 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: blue;
     font-size: 46px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 300;
 }
 .header-p {
@@ -134,7 +134,7 @@ table {
     margin-top: 18px;
 }
 .bg-1 {
-    background-color: #fecc17;
+    background-color: blue;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -203,17 +203,17 @@ table {
     height: auto;
 }
 .contacts-btn {
-    background-color:  #FFB03B !important;
+    background-color:  blue !important;
     color: #ffffff !important;
     width: 170px;
     height: 54px;
     border-radius: 3px;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     font-weight: normal;
     text-transform: capitalize;
     border: 0px;
-    color: #000 !important;
+    color: white !important;
 }
 
 .validation {
@@ -257,8 +257,8 @@ table {
 
 
 .heading{
-    font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    font-family: 'Quicksand', sans-serif;
+    color: red;
     font-size: 24px;
 }
 .marb-35{
@@ -269,11 +269,11 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: blue;
 }
 #about img
 {
-    border: 5px solid rgb(255, 176, 59);
+    border: 5px solid rgb(0, 0, 255);
     border-radius: 2px;
 }
 #event{
@@ -300,7 +300,7 @@ table {
     color: #FFB03B;
     font-size: 32px;
     padding-bottom: 15px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .content-holder address strong {
     color: #FFB03B;
@@ -315,7 +315,7 @@ table {
 .btn-read-more {
     background: #FFB03B;
     padding: 7px 19px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 12px;
     line-height: 17px;
     font-weight: 400;
@@ -343,7 +343,7 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: blue;
 }
 .menu-restaurant .menu-line {
     position: absolute;
@@ -370,9 +370,9 @@ table {
     display: block;
 }
 .gallery-trigger ul li a.active, .gallery-trigger ul li a:hover {
-    background: #FFB03B;
+    background: blue;
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid blue;
 }
 .gallery-trigger ul li {
     display: inline-block;
@@ -386,7 +386,7 @@ table {
     font-size: 14px;
     color: #565656;
     border-radius: 0px;
-    border: 1px solid #BBBBBB;
+    border: 1px solid blue;
     text-decoration: none;
     cursor: pointer;
 }
@@ -412,7 +412,7 @@ table {
 }
 .footer .widget-title{
     padding-bottom: 20px;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 44px;
     color: #FFB03B;
 }
@@ -430,6 +430,11 @@ table {
     display: inline-block;
 }
 #contact{
+    background: url('../img/xhale_1.jpg') no-repeat;
+    background-size: cover;
+    background opacity: 0.5;
+}
+.bgc{
     background-color: rgba(221, 221, 221, 0.33);
 }
 .footer .social-list a {
@@ -479,3 +484,4 @@ table {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
